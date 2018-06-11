@@ -16,6 +16,7 @@ class App extends Component {
 
           <main className="expanded row">
             <Article />
+              //ArticleBody.js and ArticleLink.js included within Article.js
 
             <Ad />
 

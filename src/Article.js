@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ArticleBody from './ArticleBody'
 import ArticleLinks from './ArticleLinks'
+import Author from './Author'
 
 class Article extends Component {
     render() {
@@ -8,11 +9,8 @@ class Article extends Component {
             <div className="large-8 medium-12 columns article">
             <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
             <div className="avatar">
-              <img src="http://www.zbrushcentral.com/attachment.php?attachmentid=376082" alt="author" />
-              <div className="author-info">
-                <p className="author-name">By Domri, son of Flug</p>
-                <p className="date">on 28 April, 3018 of the Third Age</p>
-              </div>
+            <img src="http://www.zbrushcentral.com/attachment.php?attachmentid=376082" alt="author" />
+                <Author />
             </div>
 
             <ArticleBody />
