@@ -23,6 +23,11 @@ class App extends Component {
             <Ad />
 
             <Clickbait />
+            //SingleOrcs
+            //Mountain
+            //WeirdTricks
+            //Surprise
+            
 
           </main>
 
