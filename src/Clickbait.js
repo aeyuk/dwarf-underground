@@ -36,8 +36,8 @@ class Clickbait extends Component {
         return (
             <div className="small-12 columns other-articles">
                 <h2>From around the Realm</h2>
-                    {this.state.objArray.map((obj) => (
-                        <div>
+                    {this.state.objArray.map((obj, index) => (
+                        <div key={index}>
                             {obj.component}
                         </div>
                     ))}
