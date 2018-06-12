@@ -16,18 +16,10 @@ class App extends Component {
 
           <main className="expanded row">
             <Article />
-              //ArticleBody
-              //ArticleLinks
-              //Author
 
             <Ad />
 
             <Clickbait />
-            //SingleOrcs
-            //Mountain
-            //WeirdTricks
-            //Surprise
-            
 
           </main>
 
